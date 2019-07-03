@@ -1,4 +1,6 @@
 ---
 deployment:
  tasks:
+ - touch newFileFromCpanelYMLxx.php
  - find . -type f -exec chmod 644 {} \;
+ - touch newFileFromCpanelYMLzz.php
